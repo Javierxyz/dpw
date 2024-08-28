@@ -1,0 +1,139 @@
+/* all */
+* {
+  color: black;
+  font-family: "Poppins";
+}
+body {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+/* navbar */
+nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+  list-style-type: none;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+
+nav li i {
+  color: white;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+/* akhir navbar */
+
+/* foooter */
+footer {
+  text-align: center;
+  border-top: 1px solid #ddd;
+  margin-bottom: 30px;
+}
+/* akhir footer */
+/* akhir all */
+
+/* home.html */
+
+.content {
+  text-align: center;
+  padding: 50px;
+  margin: 20%;
+  margin-top: 0;
+}
+.content p {
+  text-align: left;
+}
+
+/* akhir home.html */
+
+/* math.html */
+
+.quote {
+  border-radius: 25px;
+  border: 2px solid #ddd;
+  padding: 20px;
+  margin: 50px auto;
+  width: 42%;
+}
+.inputpensiun {
+  border-radius: 25px;
+  border: 2px solid #ddd;
+  margin: 50px;
+  padding: 40px 100px;
+  padding-bottom: 200px;
+  width: 56%;
+}
+
+/* akhir math.html */
+
+/* js */
+.hidden {
+  display: none;
+}
+.alert {
+  color: red;
+}
+.hasil {
+  display: none;
+}
+
+.pengeluaranteks {
+  background-color: #333;
+  color: white;
+  border: 2px solid;
+  width: 330px;
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 25px 25px;
+}
+
+input {
+  height: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 25px 25px;
+}
+
+.pengeluaranNanti {
+  background-color: #333;
+  color: white;
+  border: 2px solid;
+  width: 400px;
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 25px 25px;
+}
+
+#usia-sekarang,
+#usia-pensiun,
+#inflasi {
+  border: 2px solid;
+  height: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px 0 0 25px;
+}
+
+.highlight {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* akhir js */
